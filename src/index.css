@@ -30,3 +30,53 @@
 section {
   height: 100%;
 }
+
+@media screen and (max-width: 900px) {
+  .two-container {
+    flex-direction: column-reverse;
+  }
+  .pr-img-container {
+    margin-top: 2rem;
+  }
+
+  .pr-text-container {
+    margin-left: 2rem;
+  }
+  .text-container {
+    margin-left: 0;
+  }
+
+  .cont-heading h2 {
+    font-size: 4rem;
+  }
+  .cont-heading h3 {
+    font-size: 1.5rem;
+  }
+  .contact-image-wrapper img {
+    display: none;
+  }
+  .contact-wrapper {
+    grid-template-columns: none;
+  }
+  .contact-input-text {
+    width: 30rem;
+  }
+  .contact-textArea {
+    width: 30rem;
+  }
+  .contact-submit {
+    width: 30rem;
+  }
+  header {
+    margin-right: 11rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pr-img-container img {
+    width: 28rem;
+  }
+  header {
+    gap: 2rem;
+  }
+}
