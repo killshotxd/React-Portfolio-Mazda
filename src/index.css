@@ -26,3 +26,7 @@
   --backtick: #fff;
   --scrollBars: #1f212b;
 }
+
+section {
+  height: 100vh;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 import Navbar from "./components/Navbar";
 import "./Home.css";
 
@@ -12,6 +13,7 @@ const Home = () => {
           <h1>
             Hi, I'm <span>Hassan</span>
           </h1>
+
           <h2>
             I build and design <span>websites</span>
           </h2>

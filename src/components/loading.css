@@ -1,0 +1,12 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.glGQsz {
+  border-color: var(--purple) transparent transparent transparent;
+  height: 10rem;
+  width: 10rem;
+}
