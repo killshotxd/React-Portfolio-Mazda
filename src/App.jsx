@@ -5,6 +5,8 @@ import Loading from "./components/Loading";
 import { useState } from "react";
 import { useEffect } from "react";
 
+import Contact from "./Contact";
+
 const App = () => {
   const [loading, setLoading] = useState(true);
 
@@ -17,6 +19,7 @@ const App = () => {
       <>
         <Home />
         <Projects />
+        <Contact />
       </>
     );
   }

@@ -1,0 +1,23 @@
+.pr-img-container img {
+  width: 40rem;
+  border: 10px solid var(--purple);
+  border-radius: 5rem;
+}
+
+.pr-text-container {
+  margin-left: 11rem;
+}
+
+.pr-text-container h2 {
+  font-size: 2rem;
+}
+
+.heading2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.heading2 h2 {
+  font-size: 3rem;
+}
